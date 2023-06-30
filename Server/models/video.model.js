@@ -22,14 +22,14 @@ const videoSchema = new  mongoose.Schema(
             type: String,
             required:true, 
         },
-        likes:{
-            type: Number,
-            default: 0,
-        },
-        dislikes:{
-            type:Number,
-            default:0,
-        },
+        likes: {
+            type: [String],
+            default: [],
+          },
+          dislikes: {
+            type: [String],
+            default: [],
+          },
         tags:{
             type:[String],
             default:[]
