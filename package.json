@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "timeago.js": "^4.0.2",
+    "timeagojs": "^1.0.0"
+  }
+}
